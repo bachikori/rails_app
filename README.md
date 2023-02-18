@@ -4,7 +4,7 @@
 
 ## 前提
 
-- dockerが必要です。
+- dockerが必要です
 
 ## setup
 
