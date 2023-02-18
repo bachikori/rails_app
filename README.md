@@ -1,7 +1,5 @@
 # README
 
-課題用のrailsテンプレートです。
-
 ## 前提
 
 - dockerが必要です
