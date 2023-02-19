@@ -14,7 +14,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     services:
-      postgres:
+      mysql:
         image: mysql:8
         ports:
           - "3306:3306"
@@ -24,7 +24,7 @@ jobs:
           MYSQL_PASSWORD: password
     env:
       RAILS_ENV: test
-      DATABASE_URL: "mysql2://rails:password@localhost:3000/rails_test"
+      DATABASE_URL: "mysql2://rails:password@localhost:3306/rails_test"
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
