@@ -27,3 +27,4 @@ docker compose up
 
 http://localhost:3000
 # rails7_mysql_template
+# rails_app
